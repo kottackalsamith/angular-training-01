@@ -3,9 +3,12 @@
 import * as angular from 'angular';
 
 angular.module('AngularTraining',[])
-.controller('test',function(){
-this.hello = 'hello';
-});
+.controller('test',hello);
+
+
+function hello () {
+    this.hello = 'hello';
+}
 
 // Bootstrap the angular AirlineInsuranceApp module
 angular

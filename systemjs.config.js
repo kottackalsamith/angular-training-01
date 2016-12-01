@@ -7,7 +7,7 @@ System.config({
     },
     map: {
         // our app is within the app folder
-        app: 'app',
+        app: 'script/app',
         // Angular Modules
         "angular": "bower:angular/angular.js",
         "angular-route": "bower:angular-route/angular-route.js"
